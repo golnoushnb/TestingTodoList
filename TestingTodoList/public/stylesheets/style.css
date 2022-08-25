@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    background: #fcd894;;
+    }
+    .todo-container {
+    background-image: url('../img/dotted-lined-paper.png'); 
+    background-color: red;
+    min-width: 450px;
+    min-height: 650px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 3px 6px 40px #000;
+    position: absolute; 
+    top:50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .todo {
+    width: 400px;
+    }
+    .todo-container h2 {
+    align-items: center;
+    padding: 10px;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 1.9em;
+    }
+    .todo-header input {     
+    outline:0;
+    padding: 10px 15px;
+    width: 73%;
+    border: 0;
+    border-bottom: 3px dashed #fdcb6e;
+    background-color: transparent;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 1.5rem;
+    color: #494a4b;
+    font-family: "Architects Daughter", sans-serif;
+    }
+    .todo-header button {
+    margin-left: 35px;
+    margin-top: 30px;
+    border: 3px solid #494a4b;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-family: "Architects Daughter", sans-serif;
+    background-color: #fcd894;
+    font-size: 0.9rem;
+    color: #494a4b;
+    }
+    .todo-container ul {
+    list-style: none;
+    }
+    .todo-list-item {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    }
+    .todo-list-item form {
+    width: 100%;
+    display: flex;
+    }
+    .todo-list-item input {
+    outline:0;
+    flex-grow: 2;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-family: "Architects Daughter", sans-serif;
+    }
+    .todo-list-item button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 1.3rem;
+    background-color: rgb(51, 212, 100);
+    }
+    .todo-list-item .cancel {
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 1.3rem;
+    background-color: rgb(223, 43, 43);
+    margin-left: 5px;
+    }
+    .todo-list-item div {
+    flex-grow: 2;
+    }
+    .todo-list-item .edit {
+    color : rgb(143, 233, 58);
+    margin-right: 10px;
+    cursor:pointer;
+    text-decoration: none;
+    }
+    .todo-list-item .remove {
+    color : rgb(243, 96, 96);
+    margin-right: 5px;
+    cursor:pointer;
+    text-decoration: none;
+    }
